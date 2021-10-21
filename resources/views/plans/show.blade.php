@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
+        <div style="display: flex; margin-top: 20px;">
+            <a href="create/plan" class="btn btn-primary btn-sm">CREATE PLAN</a>
+            <a style="margin-left: 10px;" href="/plans" class="btn btn-primary btn-sm">PLANS</a>
+        </div>
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="">
@@ -37,8 +41,6 @@
         </div>
     </div>
 </div>
-@endsection
-@section('scripts')
 <script src="https://js.stripe.com/v3/"></script>
 <script>
     // Custom styling can be passed to options when creating an Element.
@@ -59,6 +61,7 @@
             iconColor: '#fa755a'
         }
     };
+   
     const stripe = Stripe('{{ env("STRIPE_KEY") }}', { locale: 'en' }); // Create a Stripe client.
     const elements = stripe.elements(); // Create an instance of Elements.
     const cardElement = elements.create('card', { style: style }); // Create an instance of the card Element.

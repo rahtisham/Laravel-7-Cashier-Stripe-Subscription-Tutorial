@@ -1,0 +1,17 @@
+<div class="Aqib">
+<h2 class="heading-form">Fill the form and send your query</h2>
+
+<div class="row text-left">
+<div class="col-sm-6">[text* your-name placeholder "Your Name *"]</div>
+<div class="col-sm-6">[email* email-839 placeholder "Your Email *"]</div>
+</div>
+
+
+<div class="row text-left">
+<div class="col-sm-6">[tel* tel-161 placeholder "Your Phone"]</div>
+<div class="col-sm-6">[select* menu-114 "Website Development" "App Development" "Digital Marketing" "Graphic designing"]</div>
+<div class="col-sm-12 text-left" class=""wpcf7-form-control wpcf7-textarea">[textarea* textarea-258 placeholder "Message..."]</div>
+<div class="col-sm-12 text-left">[cf7sr-simple-recaptcha]</div>
+<button type="submit" class="btn-aqib">Send Message</button>
+</div>
+</div>

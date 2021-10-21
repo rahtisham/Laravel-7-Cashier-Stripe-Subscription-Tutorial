@@ -18,7 +18,7 @@ class PlanController extends Controller
     */
     public function index()
     {
-        $plans = Plan::all();
+        $plans = Plan::orderBy('id', 'desc')->get();;
         return view('plans.index', compact('plans'));
     }
 

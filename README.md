@@ -68,8 +68,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Now you can open below link on your browser and read this documentation to emplyment StripeCashier
 https://www.nicesnippets.com/blog/laravel-7-cashier-stripe-subscription-tutorial
 https://www.nicesnippets.com/blog/class-form-not-found-in-laravel-7
+https://www.youtube.com/watch?v=K6G77wroHNo&t=647s
 
 
 
-create/plan
-plans

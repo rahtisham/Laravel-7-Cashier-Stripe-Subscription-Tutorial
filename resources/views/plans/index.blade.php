@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
+        <div style="display: flex; margin-top: 20px;">
+            <a href="create/plan" class="btn btn-primary btn-sm">CREATE PLAN</a>
+            <a style="margin-left: 10px;" href="/plans" class="btn btn-primary btn-sm">PLANS</a>
+        </div>
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">

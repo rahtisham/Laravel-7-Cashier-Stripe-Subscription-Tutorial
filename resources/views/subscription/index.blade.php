@@ -12,6 +12,11 @@
 <a href="subscription/create" class="btn btn-success">Add Subscription</a>
     <div class="container">
         <div class="row">
+                     @if(\Session::has('success'))
+                    <div class="alert alert-success">
+                    <p><b>{{ \Session::get('success') }}</b></p>
+                    </div>
+                    @endif
             <div class="col-md-12 col-md-offset-0">
                 <h2>Subscription Active Data</h2>
                 <table class="table table-bordered">

@@ -127,6 +127,7 @@ class SubscriptionController extends Controller
 
         Plan::create($data);
 
-        echo 'plan has been created';
+        // echo 'plan has been created';
+        return redirect()->route('plans.index')->with('success', 'plan has been created');
     }
 }
