@@ -34,7 +34,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     
 </head>
-<body id="app-layout">
+<body id="app-layout"><br>
+    <a href="../active-subscription" class="btn btn-warning">Active Subscription</a>
 <div class="container">
     <div class="row" style="margin-top: 100px;">
       <div class="col-md-6 col-md-offset-3">
@@ -58,7 +59,7 @@
                     @endif
                     <div class="form-group" id="product-group">
                         {!! Form::label('plane', 'Select Plan:') !!}
-                        {!! Form::select('plane', ['price_***' => 'Game ($50)','price_***' => 'Movie ($100)'], null, [
+                        {!! Form::select('plane', ['123' => 'Game ($50)','234' => 'Movie ($100)'], null, [
                             'class'                       => 'form-control',
                             'required'                    => 'required',
                             'data-parsley-class-handler'  => '#product-group'
