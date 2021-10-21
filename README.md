@@ -62,3 +62,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+## Now you can open below link on your browser and read this documentation to emplyment StripeCashier
+https://www.nicesnippets.com/blog/laravel-7-cashier-stripe-subscription-tutorial
+https://www.nicesnippets.com/blog/class-form-not-found-in-laravel-7
+
+
+
+create/plan
+plans
